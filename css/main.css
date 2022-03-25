@@ -1,0 +1,161 @@
+/*  */
+html {
+    overflow-x: hidden;
+    }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+   margin: 0;
+  }
+  
+  ul,
+  ol {
+   margin: 0;
+   padding: 0;
+  }
+  
+  img {
+   display: block;
+  }
+  
+  .body {
+   margin:0;
+  }
+  
+
+  
+  .link {
+   text-decoration: none;
+  }
+  
+  li {
+   list-style: none;
+  }
+
+  .container{
+    width:1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
+/* //================================== */
+/* ====================Fonts========== */
+.navigation-fonts{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color:#000;
+}
+
+.headers-font{
+text-align:center;
+padding-top:45px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 51px;
+}
+
+.header-font{
+    text-align:center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+}
+
+.button-font{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color:#ffffff;
+}
+/* ================== */
+
+.nav-list{
+    display:flex;
+    margin-left: 113px;
+    width:736px;
+}
+
+.interface-list{
+    display:flex;
+    margin-left:170px;
+    
+}
+
+.interface-svg{
+    width:18px;
+    height: 18px;
+}
+
+.navigation{
+    display:flex;
+    
+}
+
+.nav{
+    display:flex;
+    margin-top: 22px;
+    margin-botom:15px;
+}
+
+.logo-img{
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.nav-item:not(last-child){
+padding-right:22px;
+}
+/* ====================== */
+/* ============SECTION_HEADER======== */
+.section-header{
+    background-image: url("../img/Rectangle (5).png");
+border-radius: 0px;
+background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-list{
+    display:flex;
+    margin-left:430px;
+    padding-top:22px;
+}
+
+.button{
+    background: #FF4A32;
+    border-radius: 35px;
+    width: 201px;
+    border: 1px solid #fff;
+    
+}
+
+.button-item:not(last-child){
+    padding-left: 15px;
+}
+
+.sponsor-list{
+    width:100%;
+    margin-top:618px;
+    background-color: #000;
+    display:flex;
+    
+}
+
+.sponsor-item{
+    padding-top:22px;
+    padding-left:100px;
+padding-bottom: 22px;
+}
+
